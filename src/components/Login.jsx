@@ -30,7 +30,7 @@ export default function Login() {
     setError("");
 
     try {
-      const apiEndpoint = "http://localhost:5000/api/login";
+      const apiEndpoint = "https://chatfreebackend.onrender.com/api/login";
 
       // --- THIS IS THE FIX ---
       // The backend now expects an 'email' key, not 'username'.

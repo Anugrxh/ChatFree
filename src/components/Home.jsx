@@ -120,7 +120,7 @@ export default function Home() {
   });
 
   const api = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://chatfreebackend.onrender.com/api",
     headers: { Authorization: `Bearer ${token}` },
   });
 

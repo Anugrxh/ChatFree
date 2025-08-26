@@ -39,7 +39,7 @@ export default function Signup() {
     setIsLoading(true);
     try {
       const userData = { username, email, password, password2 };
-      const response = await axios.post("http://localhost:5000/api/register", userData);
+      const response = await axios.post("https://chatfreebackend.onrender.com/api/register", userData);
       
       console.log("Signup successful:", response.data);
       setSuccess("Account created successfully! Redirecting to login...");
